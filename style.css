@@ -1,0 +1,80 @@
+/* --- CONTENEDOR GENERAL --- */
+.herb-card {
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #faf8f4;
+  border-radius: 18px;
+  border: 1px solid #e2dcd2;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+  font-family: "Montserrat", "Lora", serif;
+  color: #3a3a3a;
+}
+
+/* --- ENCABEZADO --- */
+.herb-header h2 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+  color: #6a5e48;
+  font-weight: 700;
+}
+
+.latin-name {
+  font-size: 1rem;
+  color: #8a7f6a;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+/* --- BLOQUES --- */
+.herb-block {
+  margin-bottom: 25px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 14px;
+  border: 1px solid #e8e3da;
+}
+
+.herb-block h3 {
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+  color: #6a5e48;
+  font-weight: 600;
+}
+
+/* --- LISTAS --- */
+.herb-block ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.herb-block ul li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+/* --- BENEFICIOS --- */
+.benefits-list li {
+  font-weight: 600;
+  color: #4a4a4a;
+}
+
+/* --- PREPARACIÓN --- */
+.herb-block.preparacion p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* --- CONTRAINDICACIONES --- */
+.herb-block.contra ul li {
+  color: #a14a4a;
+  font-weight: 600;
+}
+
+/* --- EFECTO VISUAL SUAVE --- */
+.herb-card:hover {
+  transform: translateY(-3px);
+  transition: 0.3s ease;
+  box-shadow: 0 6px 22px rgba(0,0,0,0.12);
+}
